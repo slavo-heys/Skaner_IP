@@ -23,13 +23,22 @@ Program można skompilować przy użyciu kompilatora g++ (lub innego wspierając
 **Linux/macOS:**
 ```bash
 g++ -std=c++17 -o skaner_ip skaner_ip.cpp -lpthread
+```
 
-***Windows:**
+**Windows:**
 ```bash
 g++ -std=c++17 -o skaner_ip.exe skaner_ip.cpp -lws2_32 -lpthread
+```
 
+## Program poprosi o podanie następujących informacji:
 
--------------------------------------------------------------------------------
+Bazowy adres IP (np. 192.168.1)
+Początek zakresu IP (np. 1)
+Koniec zakresu IP (np. 254)
+Liczba równoczesnych wątków (np. 10)
+Timeout dla skanowania portów w milisekundach (np. 200)
+Po wprowadzeniu danych rozpocznie się skanowanie, a następnie zostaną wyświetlone wyniki.
+
 ```bash
 --- Wyniki Skanowania ---
 Adres IP          Nazwa Hosta                   Otwarte Porty
