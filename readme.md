@@ -25,7 +25,7 @@ Program można skompilować przy użyciu kompilatora g++ (lub innego wspierając
 g++ -std=c++17 -o skaner_ip skaner_ip.cpp -lpthread
 ```
 
-***Windows:**
+**Windows:**
 ```bash
 g++ -std=c++17 -o skaner_ip.exe skaner_ip.cpp -lws2_32 -lpthread
 ```
